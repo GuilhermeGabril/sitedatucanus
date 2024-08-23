@@ -1,0 +1,162 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/fundoo.jpeg');
+    
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 60px;
+    font-family: sans-serif;
+}
+nav ul li a.hover-orange {
+    color: #ffa500;
+}
+
+
+main {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 160px;
+}
+
+.hero-text {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.hero-image {
+    background-image: url('/img/fotoatualizada.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 89%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.youtube-icon img {
+    width: 60px; /* Tamanho desejado para o ícone do YouTube */
+    height: 60px;
+    position: relative;
+    top: 3px;
+    right: 70px; /* Ajuste esse valor para descer o ícone */
+
+}
+.instagram-icon img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    position: relative;
+    top: 1.5px;
+    right: 70px; /* Ajuste esse valor para descer o ícone */
+}
+.linkedin-icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    position: relative;
+    top: -14px;
+    right: 60px; /* Ajuste esse valor para descer o ícone */
+}
+.social-icons a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+.social-icons img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.news, .sidebar {
+    width: 48%;
+}
+
+.news article {
+    background-color: #000000;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid;
+    border-color: rgba(255, 166, 0, 0.809);
+
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    background-color: #000000;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid;
+    border-color: rgba(255, 166, 0, 0.809)
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
