@@ -44,7 +44,7 @@ nav ul li a {
     font-family: sans-serif;
 }
 nav ul li a.hover-orange {
-    color: #ffa500;
+    color: #ec8812;
 }
 
 
@@ -136,7 +136,7 @@ main {
     margin-bottom: 20px;
     padding: 15px;
     border: 2px solid;
-    border-color: rgba(255, 166, 0, 0.809);
+    border-color: #ec8812;
 
 }
 
@@ -150,7 +150,7 @@ main {
     margin-bottom: 10px;
     padding: 10px;
     border: 2px solid;
-    border-color: rgba(255, 166, 0, 0.809)
+    border-color: #ec8812;
 }
 
 footer {
